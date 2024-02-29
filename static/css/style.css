@@ -1,3 +1,33 @@
+/* change color and font to all paragraphs */
 p {
-    color: deeppink;
+    color: darkmagenta;
+    font-family: Dialog;
+}
+
+/* change color and font of header 2 */
+h2 {
+    color: darkblue;
+    font-family: Dialog
+}
+
+/* adding a border to the table */
+table, td, th {
+    border-style: solid;
+    border-color: darkmagenta;
+}
+
+/* create an id in the HTML */
+p#special {
+    font-family: PMingLiU-ExtB;
+    color: magenta;
+}
+
+/* create a new class */
+.newcolor {
+    color: lightpink;
+}
+
+image.logo{
+    width: 267px;
+    height: 72px
 }
