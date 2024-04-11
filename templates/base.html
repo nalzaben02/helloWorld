@@ -29,6 +29,8 @@
                           <a id="student_create" class="nav-link {% if request.endpoint=='student_create' %}active{%endif %}" href="{{ url_for('student_create') }}">Add New Student</a>
                         </li>
                         {% endif %}
+
+                        <!-- added the training page -->
                         {% if current_user.role in ['ADMIN', 'MANAGER'] %}
                         <li class="nav-item">
                             <a id="training" class="nav-link" href="/training">Training</a>
